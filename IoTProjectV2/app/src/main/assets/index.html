@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!--	<meta charset="utf-8">-->
+<!--	<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--	<title></title>-->
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-eval' 'unsafe-inline';">
+
+	<title>IoTVision Apps</title>
+
+<!--	<link rel="stylesheet" href="jquery.mobile-1.4.2.min.css" />-->
+<!--	<script src="jquery.js"></script>-->
+<!--	<script src="jquery.mobile-1.4.2.min.js"></script>-->
+
+	<link rel="stylesheet" type="text/css" href="http://App.IoTVision.vn/Assets/css/AppIoTVision.min.css">
+
+	<script src="http://App.IoTVision.vn/Assets/js/AppIoTVision_LoadjQueryMobileCSS.min.js">
+	</script>
+
+
+</head>
+<body>
+	<div data-role='page' id='TrangSplash' style='display: inherit'>
+		<div role='main' class='ui-content' style='text-align: center; margin-top: 70%'>
+			<img src='IoTVision-Icon.png' alt="IoTVision Icon" width="40%" />
+		</div>
+	</div>
+
+	<!-- Chú ý: Trình tự load các file JS phải theo đánh số thứ tự bên dưới -->
+	<!-- 1. jQuery -->
+	<!-- 2. Load các files code cua App -->
+	<script src="http://App.IoTVision.vn/Assets/js/AppIoTVision_LoadJS_CSS.min.js"></script>
+
+	<!-- 3. Cordova -->
+	<!-- <script type="text/javascript" src="cordova.js"></script> -->
+	<!-- <script type="text/javascript" src="scripts/platformOverrides.js"></script> -->
+
+	<!-- 4. Hàm chạy app trên device, sau đó thì mới gọi các hàm khác của app -->
+	<script type="text/javascript" src="http://App.IoTVision.vn/Assets/js/AppIoTVision.min.js">
+	</script>
+
+	<!-- Chú ý: Trình tự load các file JS phải theo đánh số thứ tự bên dưới -->
+	<!-- 1. jQuery -->
+	<!-- 2. Load các files code cua App -->
+<!--	<script src="http://App.IoTVision.vn/Assets/js/AppIoTVision_LoadJS_CSS.js"></script>-->
+
+<!--&lt;!&ndash;	&lt;!&ndash; 4. Hàm chạy app trên device, sau đó thì mới gọi các hàm khác của app &ndash;&gt;&ndash;&gt;-->
+<!--	<script src="http://App.IoTVision.vn/Assets/js/AppIoTVision.js"></script>-->
+</body>
+</html>

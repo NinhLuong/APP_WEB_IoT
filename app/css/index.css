@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(238, 232, 232);
+    margin: 0;
+}
+
+#customers {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+#boxdangnhap{
+    padding: 50px 12% ;
+    padding-top: 30%;
+}
+.input-box{
+  margin-bottom: 10px;
+}
+.input-box input{
+  padding: 7.5px 15px;
+  width: 92%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+#nhomatkhau{
+  margin-left: 50%;
+  margin-right: -1%;
+}
+#formbaixe{
+  padding: 0px 30px;
+  
+}
+.ui-grid-b .ui-icon-check:after {
+  background-color: #ff6e0e;
+}
+
+.ui-grid-b .ui-icon-delete:after {
+  background-color: #ff6e0e;
+}
+.ui-grid-d .ui-icon-delete:after {
+  background-color: #ff6e0e;
+}
+
+.ui-grid-d .ui-icon-check:after {
+  background-color: #ff6e0e;
+}
+
+ul.cam #cam:after{
+  background-color: #ff6e0e;
+}
+#header #cam::after{
+  background-color: #ffbb0e;
+}
+#header-setting #cam::after{
+  background-color: #160eff;
+}
+
+#formthanhtoan{
+  padding: 50px;
+  
+}
+#nganhang{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#Thongtinfirmware #cam::after{
+  background-color: #0eff46;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+/* li  {
+  float: right;
+} */
+
+li a.active {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right
+}
+#title_data li{
+  display: inline-block;
+  text-overflow: ellipsis;
+ 
+}
+#data li{
+  display: inline-block;
+  text-overflow: ellipsis;
+ 
+}
+li a.act {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #d10000;
+}
+
+.listview {
+  border: 5px;
+  font-size: 14px;}
+#Thongtincanhan{
+  margin-bottom: 12%;
+}
+
+
+.on, .off{
+  width:63px;
+  height:40px;
+  display:table-cell;
+  cursor:pointer;
+  text-indent: -10000px;
+  
+}
+
+#Trangdieukhien .switch-control-2 .custom-label-flipswitch{
+  margin-right: 20px;
+  margin-left: 25px;
+ 
+}
+#Trangdieukhien .Mode-control fieldset #name1{
+  color: #f60b0b;
+  font-weight: 600;
+}
+#Trangdieukhien 
+#Trangdieukhien {
+  background-color: white;
+}
+#Trangdieukhien .switch-control-2 #lb1 {
+  margin-left: 40px;
+  margin-right: 30px;
+  /* margin-top: 30%;
+  margin-bottom: 20%;  */
+  font-weight: 700;
+  color: cornflowerblue;
+}
+#Trangdieukhien .switch-control-2 #lb2 {
+  margin-left: 70px;
+  margin-right: 30px;
+  /* margin-top: 30%;  */
+  font-weight: 700;
+  color: cornflowerblue;
+}
+#Trangdieukhien .switch-control-2 #lb3 {
+  margin-left: 30px;
+  margin-right: 30px;
+  /* margin-top: 30%; */
+  font-weight: 700;
+  color: cornflowerblue;
+}
+#Trangdieukhien #img{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#Trangcaidat #form .form-control #lb {
+  font-weight: 600;
+  color: #4e0eff;
+}
+#Trangcaidat #IMEI{
+  font-weight: 600;
+  color: #3f06fb;
+}
+#Trangcaidat #btn1 .ui-input-btn {
+  color: #0800ff;
+  margin-left: 12%;
+
+}
+#Trangcaidat #btn2 .ui-input-btn {
+  color: #0800ff;
+  margin-left: 16%;
+}
+#Trangcaidat #collapsible #setup1 #btn::after{
+  background-color: #ff820e;
+}
+#ThongtinFirmware #popupDialog3 #class1 #btn-done {
+  color: #0800ff;
+  margin-left: 20%;
+}
+#ThongtinFirmware #popupDialog4 #class2 #btn-done {
+  color: #0800ff;
+  margin-left: 10%;
+}
+#ThongtinFirmware #btn {
+  color: #0800ff;
+  margin-left: 3%;
+}
+#ThongtinFirmware #btn::after {
+  background-color: #00bfff;
+}
+#ThongtinFirmware #cam::after {
+  background-color: #00ff9d;
+}
+
+#Trangcaidat #popup1 {
+  margin-left: 26%;
+}
+#Trangcaidat #popup2 {
+  margin-left: 30%;
+}
+#Trangcaidat #collapsible #setup1::after{
+  background-color: #3f06fb;
+}
+/* #Trangcaidat #popup1 #popupDialog0 #class #btn-done{
+  margin-left: 50%;
+} */
+#Trangcaidat #popup2 #btn-done{
+  margin-left: 15%;
+}
+#thumau {
+  color: #f51809;
+}
